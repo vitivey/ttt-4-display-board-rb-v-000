@@ -5,7 +5,7 @@ def display_board
     row_1=["   |   |   "]
     row_2=["   |   |   "]
     row_3=["   |   |   "]
-    separator=[-----------]
+    separator=["-----------"]
     puts row_1
     puts separator
     puts row_2
