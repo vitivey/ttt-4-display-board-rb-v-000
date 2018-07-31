@@ -2,9 +2,9 @@
 # out the current state.
 board=["   ","   ","   ","   ","   ","   ","   ","   ","   "]
 def display_board(board)
-    row_1=["   |   |   "]
-    row_2=["   |   |   "]
-    row_3=["   |   |   "]
+    row_1=[" #{board[0]} | #{board[1]} | #{board[2]} "]
+    row_2=[" #{board[3]} | #{board[4]} | #{board[5]} "]
+    row_3=[" #{board[6]} | #{board[7]} | #{board[8]} "]
     separator=["-----------"]
     puts row_1
     puts separator
